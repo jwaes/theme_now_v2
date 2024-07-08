@@ -3,7 +3,7 @@
     'name': "Theme NOW2",
     'description': "Now Theme v2",
     'category': 'Theme',
-    'version': '0.2',
+    'version': '0.3',
     'summary': 'Design, Clean',
 
 
