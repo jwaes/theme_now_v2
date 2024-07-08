@@ -18,6 +18,8 @@
         'data/generate_primary_template.xml',
         'data/ir_asset.xml',
 
+        'views/website_templates.xml',
+
         # 'views/options.xml',
         # 'views/snippets.xml',
     ],

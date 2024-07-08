@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="template_header_now" inherit_id="website.template_header_sales_one"
+        name="Template Header Now" active="False">
+        <xpath expr="//div[@aria-label='Bottom']" position="replace" />
+        <xpath expr="//div[@aria-label='Top']" position="before">
+            <div aria-label="Promo"
+                t-if="is_view_active('website.header_text_element') or is_view_active('website.header_social_links')"
+                class="o_header_sales_two_top o_header_hide_on_scroll py-1">
+                <ul class="navbar-nav container justify-content-between align-items-center">
+                    <!-- Text element -->
+                    <t t-call="website.placeholder_header_text_element">
+                        <t t-set="_txt_elt_content" t-valuef="list" />
+                        <t t-set="_item_class" t-valuef="flex-basis-0 flex-grow-1 flex-shrink-0" />
+                    </t>
+                    <!-- Social -->
+                    <t t-call="website.placeholder_header_social_links" />
+                </ul>
+            </div>
+        </xpath>
+
+    </template>
+</odoo>
