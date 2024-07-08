@@ -1,9 +1,10 @@
 {
     # Theme information
-    'name': "theme_now_v2",
+    'name': "Theme NOW2",
     'description': "Now Theme v2",
     'category': 'Theme',
-    'version': '0.1',
+    'version': '0.2',
+    'summary': 'Design, Clean',
 
 
     'author': "jaco tech",
