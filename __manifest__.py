@@ -18,8 +18,8 @@
         'data/generate_primary_template.xml',
         'data/ir_asset.xml',
 
-        'views/options.xml',
-        'views/snippets.xml',
+        # 'views/options.xml',
+        # 'views/snippets.xml',
     ],
 
     # demo pages
