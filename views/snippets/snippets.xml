@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <template id="snippet_options" inherit_id="website.snippet_options">
+    <xpath expr="//we-select[@string='Template']" position="inside">
+        <we-button title="Now"
+        data-name="header_now_opt"
+        data-trigger="regular_header_visibility_opt"
+        data-customize-website-views="theme_now_v2.template_header_now"
+        data-customize-website-variable="'now'"
+        data-img="/website/static/src/img/snippets_options/header_template_sales_one.svg"/>        
+    </xpath>
+   </template>
+</odoo>

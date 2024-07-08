@@ -20,6 +20,8 @@
 
         'views/website_templates.xml',
 
+        'views/snippets/snippets.xml',
+
         # 'views/options.xml',
         # 'views/snippets.xml',
     ],
