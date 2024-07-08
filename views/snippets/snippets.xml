@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
    <template id="snippet_options" inherit_id="website.snippet_options">
-    <xpath expr="//div[@data-js='HeaderLayout']/we-select[@data-name='header_sidebar_opt']" position="after">
+    <xpath expr="//we-select[@data-variable='header-template']/we-button[@data-name='header_sidebar_opt']" position="after">
         <we-button title="Now"
         data-name="header_now_opt"
         data-trigger="regular_header_visibility_opt"
