@@ -3,8 +3,8 @@
 
     <template id="template_header_now" inherit_id="website.template_header_sales_one"
         name="Template Header Now" active="False">
-        <xpath expr="//div[@aria-label='Bottom']" position="replace" />
-        <xpath expr="//div[@aria-label='Top']" position="before">
+        <xpath expr="//div[@id='o_main_nav']/div[2]" position="replace" />
+        <xpath expr="//div[@id='o_main_nav']/div[1]" position="before">
             <div aria-label="Promo"
                 t-if="is_view_active('website.header_text_element') or is_view_active('website.header_social_links')"
                 class="o_header_sales_two_top o_header_hide_on_scroll py-1">
