@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <template id="template_header_now" inherit_id="website.layout"
+    <template id="theme_now_v2.template_header_now" inherit_id="website.layout"
         name="Template Header Now" active="False">
         <xpath expr="//header//nav" position="replace">
             <t t-call="website.navbar">
