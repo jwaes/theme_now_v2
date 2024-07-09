@@ -3,19 +3,26 @@
 
     <template id="template_header_now" inherit_id="website.template_header_sales_one"
         name="Template Header Now" active="False">
-        <xpath expr="//div[@id='o_main_nav']/div[2]" position="replace" />
+        <!-- <xpath expr="//div[@id='o_main_nav']/div[last()]" position="replace" /> -->
         <xpath expr="//div[@id='o_main_nav']/div[1]" position="before">
             <div aria-label="Promo"
                 t-if="is_view_active('website.header_text_element') or is_view_active('website.header_social_links')"
                 class="o_header_sales_two_top o_header_hide_on_scroll py-1">
-                <ul class="navbar-nav container justify-content-between align-items-center">
+                <ul class="navbar-nav container d-grid h-100 px-3 o_grid_header_3_cols">
                     <!-- Text element -->
+                    <!-- Return empty placeholder if the element is not active to keep the right layout -->
+                    <li class="o_header_sales_two_txt_elts_placeholder" t-if="is_view_active('website.header_text_element') == False"/>
                     <t t-call="website.placeholder_header_text_element">
-                        <t t-set="_txt_elt_content" t-valuef="list" />
-                        <t t-set="_item_class" t-valuef="flex-basis-0 flex-grow-1 flex-shrink-0" />
+                        <t t-set="_txt_elt_content" t-valuef="sentence"/>
+                        <t t-set="_div_class" t-valuef="d-flex align-items-center mx-auto"/>
+                        <t t-set="_item_class" t-valuef="d-flex align-items-center"/>
                     </t>
                     <!-- Social -->
-                    <t t-call="website.placeholder_header_social_links" />
+                    <!-- Return empty placeholder if the element is not active to keep the right layout -->
+                    <li class="o_header_sales_two_social_links_placeholder" t-if="is_view_active('website.header_social_links') == False"/>
+                    <t t-call="website.placeholder_header_social_links">
+                        <t t-set="_div_class" t-valuef="d-flex align-items-center justify-content-end h-100"/>
+                    </t>
                 </ul>
             </div>
         </xpath>
