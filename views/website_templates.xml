@@ -98,7 +98,7 @@
 
     <template id="header_cart_link" inherit_id="website_sale.header_cart_link">
         <xpath expr="//i" position="attributes">
-            <attribute name="class" separator=" " add="fa-shopping-bag" remove="fa-shopping-cart" />
+            <attribute name="class" separator=" " add="fa-bag-shopping" remove="fa-shopping-cart" />
         </xpath>
     </template>
 
