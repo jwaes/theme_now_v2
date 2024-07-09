@@ -10,7 +10,7 @@
     'author': "jaco tech",
     'website': "https://jaco.tech",
     "license": "AGPL-3",    
-    'depends': ['website'],
+    'depends': ['website', 'website_sale', 'portal'],
 
     # templates
     'data': [
