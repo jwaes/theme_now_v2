@@ -6,7 +6,7 @@ class ThemeNowV2(models.AbstractModel):
 
     @classmethod
     def _build_model(cls, pool, cr):
-        res = super(ThemeUtils, cls)._build_model(pool, cr)
+        res = super(ThemeNowV2, cls)._build_model(pool, cr)
         if 'theme_now_v2.template_header_now' not in res._header_templates:
             res._header_templates.insert(0, 'theme_now_v2.template_header_now')
         return res    
