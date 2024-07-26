@@ -3,14 +3,14 @@
     'name': "Theme NOW2",
     'description': "Now Theme v2",
     'category': 'Theme',
-    'version': '0.4',
+    'version': '0.5',
     'summary': 'Design, Clean',
 
 
     'author': "jaco tech",
     'website': "https://jaco.tech",
-    "license": "AGPL-3",    
-    'depends': ['website', 'website_sale', 'portal'],
+    'license': 'LGPL-3',
+    'depends': ['theme_common'],
 
     # templates
     'data': [

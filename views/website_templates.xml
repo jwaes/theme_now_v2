@@ -96,11 +96,11 @@
     </template>    
 
 
-    <template id="header_cart_link" inherit_id="website_sale.header_cart_link">
+    <!-- <template id="header_cart_link" inherit_id="website_sale.header_cart_link">
         <xpath expr="//i" position="attributes">
             <attribute name="class" separator=" " add="fa-bag-shopping" remove="fa-shopping-cart" />
         </xpath>
-    </template>
+    </template> -->
 
     <template id="user_dropdown" inherit_id="portal.user_dropdown">
         <xpath expr="//li/a/div/i" position="attributes">

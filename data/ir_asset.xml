@@ -18,8 +18,8 @@
 
 <record id="theme_now_v2.secondary_variables" model="theme.ir.asset">
     <field name="key">theme_now_v2.secondary_variables_scss</field>
-    <field name="name">Theme custom SCSS</field>
-    <field name="bundle">web.assets_frontend</field>
+    <field name="name">Secondary variables SCSS</field>
+    <field name="bundle">web._assets_secondary_variables</field>
     <field name="path">theme_now_v2/static/src/scss/secondary_variables.scss</field>
 </record>
 
