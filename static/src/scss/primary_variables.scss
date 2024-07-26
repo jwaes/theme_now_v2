@@ -9,14 +9,13 @@
 // o-color-5 Blackish
 
 
-// Theme colors
-$o-theme-color-palettes: map-merge($o-theme-color-palettes,
+$o-color-palettes: map-merge($o-color-palettes,
         ('now-1': (
-                'alpha': #AA997D,
-                'beta': #8BA889,
-                'gamma': #D9C3BD,
-                'delta': #FAF8F5,
-                'epsilon': #332428,
+                'o-color-1': #AA997D,
+                'o-color-2': #8BA889,
+                'o-color-3': #D9C3BD,
+                'o-color-4': #FAF8F5,
+                'o-color-5': #332428,
 
                 'success': #688E30,
                 'info': #8688B8,
