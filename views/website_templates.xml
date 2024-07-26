@@ -26,7 +26,7 @@
                             </t>
                         </ul>
                     </div>                    
-                    <div aria-label="Middle" class="container d-flex justify-content-between align-items-center py-1">
+                    <div aria-label="Middle" class="container d-flex justify-content-between align-items-center py-3">
                         <!-- Brand -->
                         <t t-call="website.placeholder_header_brand">
                             <t t-set="_link_class" t-valuef="me-4"/>
