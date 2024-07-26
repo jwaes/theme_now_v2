@@ -43,7 +43,7 @@
                             </t>
                         </t>
                         <!-- Brand -->
-                         
+
                         <t t-call="website.placeholder_header_brand">
                             <t t-set="_link_class" t-valuef="me-4"/>
                         </t>    
@@ -59,23 +59,23 @@
                                 <t t-set="_layout" t-valuef="modal"/>
                                 <t t-set="_input_classes" t-valuef="border border-end-0 p-3"/>
                                 <t t-set="_submit_classes" t-valuef="border border-start-0 px-4 bg-o-color-4"/>
-                                <t t-set="_button_classes" t-valuef="o_navlink_background text-reset"/>
+                                <t t-set="_button_classes" t-valuef="text-reset"/>
                             </t>
                             <!-- Sign In -->
                             <t t-call="portal.placeholder_user_sign_in">
-                                <t t-set="_link_class" t-valuef="btn rounded-circle text-reset fw-bold o_navlink_background"/>
+                                <t t-set="_link_class" t-valuef="btn rounded-circle text-reset fw-bold"/>
                             </t>
                             <!-- User Dropdown -->
                             <t t-call="portal.user_dropdown">
                                 <t t-set="_icon" t-value="true"/>
-                                <t t-set="_item_class" t-valuef="dropdown"/>
+                                <!-- <t t-set="_item_class" t-valuef="dropdown"/> -->
                                 <t t-set="_icon_class" t-valuef="fa-stack"/>
-                                <t t-set="_link_class" t-valuef="btn d-flex align-items-center rounded-circle p-1 pe-3 text-reset o_navlink_background"/>
+                                <t t-set="_link_class" t-valuef="btn d-flex align-items-center rounded-circle p-1 pe-3 text-reset"/>
                                 <t t-set="_dropdown_menu_class" t-valuef="dropdown-menu-end"/>
                             </t>
                             <!-- Language Selector -->
                             <t t-call="website.placeholder_header_language_selector">
-                                <t t-set="_btn_class" t-valuef="rounded-circle text-reset o_navlink_background"/>
+                                <t t-set="_btn_class" t-valuef="rounded-circle text-reset"/>
                                 <t t-set="_txt_class" t-valuef="small"/>
                                 <t t-set="_dropdown_menu_class" t-valuef="dropdown-menu-end"/>
                             </t>
@@ -101,11 +101,11 @@
     </template>    
 
 
-    <!-- <template id="header_cart_link" inherit_id="website_sale.header_cart_link">
+    <template id="header_cart_link" inherit_id="website_sale.header_cart_link">
         <xpath expr="//i" position="attributes">
-            <attribute name="class" separator=" " add="fa-bag-shopping" remove="fa-shopping-cart" />
+            <attribute name="class" separator=" " add="mdi-shopping-outline" remove="fa-shopping-cart" />
         </xpath>
-    </template> -->
+    </template>
 
     <template id="user_dropdown" inherit_id="portal.user_dropdown">
         <xpath expr="//li/a/div/i" position="attributes">

@@ -14,5 +14,5 @@ class ThemeNowV2(models.AbstractModel):
     def _theme_now_v2_post_copy(self, mod):
         self.disable_view('website.template_header_default')
         self.enable_view('theme_now_v2.template_header_now')
-        self.enable_view('website.header_language_selector_inline')
+        # self.enable_view('website.header_language_selector_inline')
         self.enable_view('website.header_language_selector_code')

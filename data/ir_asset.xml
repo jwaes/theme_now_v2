@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-<record id="theme_now_v2.primary_variables_scss" model="theme.ir.asset">
-    <field name="key">theme_now_v2.primary_variables_scss</field>
-    <field name="name">Primary variables SCSS</field>
-    <field name="bundle">web._assets_primary_variables</field>
-    <field name="path">theme_now_v2/static/src/scss/primary_variables.scss</field>
-</record>
+    <record id="theme_now_v2.primary_variables_scss" model="theme.ir.asset">
+        <field name="key">theme_now_v2.primary_variables_scss</field>
+        <field name="name">Primary variables SCSS</field>
+        <field name="bundle">web._assets_primary_variables</field>
+        <field name="path">theme_now_v2/static/src/scss/primary_variables.scss</field>
+    </record>
 
-<record id="theme_now_v2.bootstrap_overridden_scss" model="theme.ir.asset">
-    <field name="key">theme_now_v2.bootstrap_overridden_scss</field>
-    <field name="name">Bootstrap overridden SCSS</field>
-    <field name="bundle">web._assets_frontend_helpers</field>
-    <field name="directive">prepend</field>
-    <field name="path">theme_now_v2/static/src/scss/bootstrap_overridden.scss</field>
-</record>
+    <record id="theme_now_v2.bootstrap_overridden_scss" model="theme.ir.asset">
+        <field name="key">theme_now_v2.bootstrap_overridden_scss</field>
+        <field name="name">Bootstrap overridden SCSS</field>
+        <field name="bundle">web._assets_frontend_helpers</field>
+        <field name="directive">prepend</field>
+        <field name="path">theme_now_v2/static/src/scss/bootstrap_overridden.scss</field>
+    </record>
 
-<record id="theme_now_v2.secondary_variables" model="theme.ir.asset">
-    <field name="key">theme_now_v2.secondary_variables_scss</field>
-    <field name="name">Secondary variables SCSS</field>
-    <field name="bundle">web._assets_secondary_variables</field>
-    <field name="path">theme_now_v2/static/src/scss/secondary_variables.scss</field>
-</record>
+    <record id="theme_now_v2.secondary_variables" model="theme.ir.asset">
+        <field name="key">theme_now_v2.secondary_variables_scss</field>
+        <field name="name">Secondary variables SCSS</field>
+        <field name="bundle">web._assets_secondary_variables</field>
+        <field name="path">theme_now_v2/static/src/scss/secondary_variables.scss</field>
+    </record>
 
+    <record id="theme_now_v2.mdi_scss" model="theme.ir.asset">
+        <field name="key">theme_now_v2.mdi_scss</field>
+        <field name="name">Material Design Icons SCSS</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">theme_now_v2/static/src/scss/mdi.scss</field>
+    </record>
 
 </odoo>
