@@ -119,7 +119,13 @@
         </xpath>
     </template>    
 
-
+    <template id="product" inherit_id="website_sale.product">
+        <!-- Remove the empty space left by disabling the inline search bar on product page -->
+        <xpath expr="//section[@id='product_detail']//div[@hasclass('row')/div" position="attributes">
+            <attribute name="class" separator=" " remove="col-lg-6"/>
+            
+        </xpath>
+    </template>
 
 
 </odoo>

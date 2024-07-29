@@ -18,3 +18,6 @@ class ThemeNowV2(models.AbstractModel):
         self.disable_view('website.header_language_selector_flag')        
         self.enable_view('website.header_language_selector_no_text')
         self.enable_view('website.header_language_selector_code')
+        self.disable_view('website_sale.search')
+        self.disable_view('website_sale.sort')
+        self.disable_view('website_sale.add_grid_or_list_option')
