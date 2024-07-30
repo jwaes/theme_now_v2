@@ -1,0 +1,22 @@
+.theme_now .oe_product_cart {
+    border: none;
+}
+
+.theme_now .table {
+    border-collapse: separate;
+    border-spacing: 0 3rem;
+}
+
+.theme_now .table td { 
+    border: none;
+    border-left: 1px solid var(--light); 
+}
+
+.theme_now .table td:first { 
+    border-left: none ;
+}
+
+.theme_now .product_price .h5 {
+    font-weight: 400 !important;
+    font-size: 0.8rem !important;    
+}
