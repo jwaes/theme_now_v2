@@ -7,16 +7,21 @@
     border-spacing: 0 3rem;
 }
 
-.theme_now .table td { 
+#products_grid .o_wsale_products_grid_table_wrapper.theme_now .table td { 
+    padding: 0 1rem;
     border: none;
     border-left: 1px solid var(--light); 
 }
 
-.theme_now .table td:first { 
+#products_grid .o_wsale_products_grid_table_wrapper.theme_now .table td:first { 
     border-left: none ;
 }
 
-.theme_now .product_price .h5 {
+#products_grid .o_wsale_products_grid_table_wrapper.theme_now .product_price .h5 {
     font-weight: 400 !important;
     font-size: 0.8rem !important;    
+}
+
+#products_grid .o_wsale_products_grid_table_wrapper.theme_now .oe_product {
+    padding: 1rem;
 }
