@@ -10,14 +10,14 @@
 #products_grid .o_wsale_products_grid_table_wrapper.theme_now .table td { 
     padding: 0 1rem;
     border: none;
-    border-left: 1px solid var(--light); 
+    border-left: 1px solid var(--o-cc1-btn-secondary-border); 
 }
 
-#products_grid .o_wsale_products_grid_table_wrapper.theme_now .table td:first { 
+#products_grid .o_wsale_products_grid_table_wrapper.theme_now .table tr td:first-child { 
     border-left: none ;
 }
 
-#products_grid .o_wsale_products_grid_table_wrapper.theme_now .product_price .h5 {
+#products_grid .o_wsale_products_grid_table_wrapper.theme_now .product_price .h6 {
     font-weight: 400 !important;
     font-size: 0.8rem !important;    
 }
