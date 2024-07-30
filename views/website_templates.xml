@@ -133,7 +133,7 @@
     </template>    
 
 
-    <template id="products" name="template_name" inherit_id="website_sale.products">
+    <template id="products" inherit_id="website_sale.products">
         <xpath expr="//div[hasclass('o_wsale_products_grid_table_wrapper')]" position="attributes">
             <attribute name="class" separator=" " add="theme_now" />
         </xpath>
