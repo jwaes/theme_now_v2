@@ -30,4 +30,11 @@
         <field name="path">theme_now_v2/static/src/scss/mdi.scss</field>
     </record>
 
+    <record id="theme_now_v2.custom_css" model="theme.ir.asset">
+        <field name="key">theme_now_v2.custom_css</field>
+        <field name="name">Custom CSS</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">theme_now_v2/static/src/scss/custom.css</field>
+    </record>    
+
 </odoo>

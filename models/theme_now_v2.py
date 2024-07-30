@@ -23,3 +23,5 @@ class ThemeNowV2(models.AbstractModel):
         self.disable_view('website_sale.add_grid_or_list_option')
         self.disable_view('website.header_text_element')
         self.disable_view('website_sale.product_quantity')
+
+        self.enable_view('website_sale.products_thumb_2_3')
