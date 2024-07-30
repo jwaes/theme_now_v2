@@ -139,6 +139,15 @@
         </xpath>
     </template>
 
+    <template id="products_item" name="template_name" inherit_id="website_sale.products_item">
+        <xpath expr="//div[hasclass('o_wsale_product_information')]" position="attributes">
+            <attribute name="class" separator=" " add="p-1" />
+        </xpath>
+        <xpath expr="//h6[hasclass('o_wsale_products_item_title')]" position="attributes">
+            <attribute name="class" separator=" " remove="mb-2"/>
+        </xpath>
+    </template>
+
     <template id="product" inherit_id="website_sale.product">
         <!-- Remove the empty space left by disabling the inline search bar on product page -->
         <xpath expr="//section[@id='product_detail']//div[hasclass('row')]/div" position="attributes">
