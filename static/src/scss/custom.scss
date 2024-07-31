@@ -16,7 +16,7 @@
             td {
                 padding: 0 1rem;
                 border: none;
-                border-left: 1px;
+                border-left: 1px solid var(--o-border-color);
             }
 
             td:first-child {
@@ -28,9 +28,6 @@
                 font-size: 0.8rem !important;
             }
 
-            .oe_product {
-                padding: 1rem;
-            }
         }
     }
 }

@@ -156,6 +156,12 @@
         </xpath>
     </template>
 
+    <template id="filmstrip_categories" inherit_id="website_sale.filmstrip_categories">
+        <xpath expr="//div[hasclass('o_wsale_filmstip_container')]" position="attributes">
+            <attribute name="class" separator=" " add="o_wsale_filmstip_fancy_disabled" />
+        </xpath>
+    </template>
+
 
     <template id="carousel_product_indicators_bottom" inherit_id="website_sale.shop_product_carousel">
         <xpath expr="//div[hasclass('o_carousel_product_outer')]" position="attributes">
