@@ -13,4 +13,16 @@
         </xpath>
     </template>    
 
+    <template id="post_cover_image" inherit_id="website_blog.post_cover_image">
+        <xpath expr="//a/t/t[@t-set='additionnal_classes']" position="attributes">
+            <attribute name="t-value" separator=" " remove="rounded shadow" />
+        </xpath>
+    </template>    
+
+    <template id="blogs_nav" inherit_id="website_blog.blogs_nav">
+        <xpath expr="//t[@t-call='website.website_search_box_input']" position="attributes">
+            <attribute name="t-if">false</attribute>
+        </xpath>
+    </template>    
+
 </odoo>
