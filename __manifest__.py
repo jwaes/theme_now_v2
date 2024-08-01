@@ -18,6 +18,7 @@
         'data/generate_primary_template.xml',
         'data/ir_asset.xml',
         'views/customizations.xml',
+        'views/website_blog_posts_loop.xml',
         'views/website_templates.xml',
         'views/portal_templates.xml',
         'views/snippets/snippets.xml',
