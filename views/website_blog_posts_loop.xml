@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <template id="posts_loop" inherit_id="website_blog.posts_loop">
-        <xpath expr="//article//div[hasclass('o_record_cover_container')]" position="attributes">
-            <attribute name="class" separator=" " remove="rounded shadow " />
-        </xpath>
-    </template>
-
     <template id="post_info" inherit_id="website_blog.post_info">
         <xpath expr="//time" position="attributes">
             <attribute name="class" separator=" " add="d-none" />
@@ -23,6 +17,12 @@
         <xpath expr="//t[@t-call='website.website_search_box_input']" position="attributes">
             <attribute name="t-if">false</attribute>
         </xpath>
-    </template>    
+    </template>
+
+    <template id="blog_post_short" inherit_id="website_blog.blog_post_short">
+        <xpath expr="//div[@id='o_wblog_blog_top']" position="attributes">
+            <attribute name="class" separator=" " add="d-none" />
+        </xpath>
+    </template>
 
 </odoo>
