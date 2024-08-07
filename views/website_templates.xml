@@ -8,7 +8,7 @@
                 <t t-set="_navbar_classes" t-valuef="o_header_force_no_radius d-none d-lg-block p-0 shadow-sm"/>
     
                 <div id="o_main_nav" class="o_main_nav">
-                    <div aria-label="Top" t-if="is_view_active('website.header_text_element') or is_view_active('website.header_social_links') or is_view_active('website.header_language_selector')" 
+                    <div t-if="is_view_active('website.header_text_element') or is_view_active('website.header_social_links') or is_view_active('website.header_language_selector')" 
                         class="o_header_hide_on_scroll o_header_sales_two_top py-1">
                         <ul class="navbar-nav container d-grid h-100 px-3 o_grid_header_3_cols">
                             <!-- Text element -->
@@ -27,7 +27,7 @@
                             </t>
                         </ul>
                     </div>                    
-                    <div aria-label="Middle" class="container d-grid align-items-center w-100 py-2 o_grid_header_3_cols" 
+                    <div aria-label="Navigation" class="container d-grid align-items-center w-100 py-2 o_grid_header_3_cols" 
                         classb="container d-flex justify-content-between align-items-center py-3">
 
                         <!-- Navbar -->
