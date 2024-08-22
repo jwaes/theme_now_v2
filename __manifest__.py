@@ -10,7 +10,7 @@
     'author': "jaco tech",
     'website': "https://jaco.tech",
     'license': 'LGPL-3',
-    'depends': ['theme_common', 'website_blog'],
+    'depends': ['theme_common', 'website_blog', 'website_sale'],
 
     # templates
     'data': [
